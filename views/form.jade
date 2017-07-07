@@ -1,0 +1,19 @@
+section.section.contact#contact
+  a(name="contactForm")
+  h2 Get in touch
+  form.contact-form(action="/email-sales" method="post")
+    div.contact-form-desc
+      p Contact us to learn more about Glitch for Platforms.
+      img.contact-logo(src="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fcarp.svg")
+    div.contact-success.hidden
+      img.hd-logo(src="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fcarp.svg" alt=Glitch height="2em" width="2em")
+      p Thanks! Your message has been sent successfully.
+      p You should hear back from us within one business day.
+    div.contact-form-inputs
+      input.form-input(type="text" name="name" placeholder="Your name *")
+      input.form-input(type="text" name="company" placeholder="Your company *")
+      input.form-input(type="email" name="email" placeholder="Your email *")
+      input.form-input(type="tel" name="phone" placeholder="Your phone number")
+      input.form-submit(type="submit" value="Contact Us")
+      span.form-submit.form-sending.hidden Sending
+        span.sending
