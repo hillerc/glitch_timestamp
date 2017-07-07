@@ -1,0 +1,159 @@
+include head
+
+body.partners
+
+  main
+
+    header
+      a(href="https://glitch.com")
+        - bird = "https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-day.svg"
+        img(class="bird" width=75 height=62 src=bird)
+
+      h1
+        a(href="https://glitch.com", onclick="javascript: ga('send', {hitType: 'pageview',page: '/internal-links/homepage/h1'});") 
+          span Glitch for Open Source
+        span  makes getting started with your project easy. 
+
+      img.screenshot(src="https://cdn.glitch.com/338d8e79-88df-409c-aa04-85d73816e008%2FopenSourceRemix.png?1493825120419")
+
+    div.contact-form-inputs
+      a(href="#getStarted")
+        input.form-submit.oss(type="button" value="Get Started") 
+
+    section
+
+      h2
+        | Use our free tools to help developers with your project
+
+    section
+      p Get more folks using your project more quickly by:
+
+      ul
+        li
+          strong Removing friction for new users 
+          | - Enable people to go from GitHub repo to live app with one-click.
+        li
+          strong Creating great documentation 
+          | - Show, don't just tell. Create unlimited sample apps, which people can learn from and re-use in their own apps.
+        li
+          strong Collaborating on code 
+          | - People can watch you code in real-time or pair program with you, like working together on a Google Doc.
+
+    section.featured-projects
+      h3
+        | Glitch in the wild
+      p
+        | Some projects already using Glitch to improve experiences for devs
+      ul
+        li
+          span
+            div.users
+              div.user
+                img(width="30" height="30" src="https://avatars2.githubusercontent.com/u/16024092?v=3&amp;s=48") 
+            div.user-names
+              span.user-name aframevr
+          a(href="https://aframe.io/aframe-school/" target="_blank")
+            div.featured-container
+              img.featured(width="30" height="30" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2FmozillaAframe.png?1494449169684")
+              p.project-name
+                | Interactive workshops  
+                
+        li
+          span
+            div.users
+              div.user
+                img(width="30" height="30" src="https://avatars2.githubusercontent.com/u/9892522??v=3&amp;s=48") 
+            div.user-names
+              span.user-name freecodecamp
+          a(href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank")
+            div.featured-container
+              img.featured(width="30" height="30" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Ffcc.png?1494453119980")
+              p.project-name
+                | Tutorials                 
+                
+        li
+          span
+            div.users
+              div.user
+                img(width="30" height="30" src="https://avatars2.githubusercontent.com/u/2105791?v=3&amp;s=48") 
+            div.user-names
+              span.user-name webpack
+          a(href="https://glitch.com/~webpack-lazy-loading" target="_blank")
+            div.featured-container
+              img.featured(width="30" height="30" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2FwebpackFeature.png?1494450828509")
+              p.project-name
+                | Live sample apps                   
+
+    div.quote
+      span
+        div.users
+          div.user
+            img(width="30" height="30" src="https://avatars0.githubusercontent.com/u/56996?v=3&amp;s=48")
+        div.user-names
+          span.user-name
+            | Jorge Bucaran, Creator and Maintainer of HyperApp
+      article.projects
+        div.project
+          div.project-container
+            i
+              | "We use Glitch to run HyperApp's examples page because of the simplicity and straightforwardness - Glitch makes it easy for people to build, without getting bogged down in details."
+              
+    section
+      h2 Reduce the support burden and empower your community
+      img.screenshot(src="https://cdn.glitch.com/338d8e79-88df-409c-aa04-85d73816e008%2FraiseHandForHelp.png?1493816227082")
+      p Save yourself from endless back-and-forth on issues, just hop into a project and help people directly. Inline requests mean you know exactly which part of the code they're stuck with.
+      p Anybody can help, so stop yourself from burning out and enable community members to help each other. Help requests are tagged automatically based on file type and dependencies, as well as a user's own suggested tags, so contributors are directed to questions they know more about.
+
+    div.quote
+      span
+        div.users
+          div.user
+            img(width="30" height="30" src="https://avatars0.githubusercontent.com/u/3909390?v=3&amp;s=48")
+        div.user-names
+          span.user-name
+            | Stefan Bohacek, Creator of Botwiki
+      article.projects
+        div.project
+          div.project-container
+            i
+              | "I used to struggle to make instructions on how to deploy and run your bot on a server accessible to people with less technical experience. Glitch changed that." 
+
+    section
+      a(name="getStarted")
+      h2 How to get started
+      p Create example apps demoing your project on Glitch. Then:
+
+      ul
+        li
+          strong Remix on Glitch 
+          | - 
+          a(href="https://remix-button.glitch.me/" target="_new") Generate a 'Remix on Glitch' button 
+          | to add to your GitHub project page, blog posts and help docs.
+          p
+            i You can pre-populate a project's env vars on remix, 
+            a(href="https://remix-button.glitch.me/" target="_new") here's how
+            | .
+        li
+          strong Import from GitHub
+          | - Or, add a button to  
+          a(href="https://github-import.glitch.me/" target="_new") import your GitHub repo to Glitch
+          | .
+          p
+            i To provide Glitch-specific instructions on how to work with your code, just add a 'glitch_readme.md' file to your GitHub project and it'll be the first page folks see after import to Glitch.  
+
+    div.quote
+      span
+        div.users
+          div.user
+            img(width="30" height="30" src="https://avatars0.githubusercontent.com/u/985197?v=3&amp;s=48")
+        div.user-names
+          span.user-name
+            | Quincy Larson, Founder and Teacher at freeCodeCamp
+      article.projects
+        div.project
+          div.project-container
+            i
+              | "We've made extensive use of Glitch for helping people learn back end development. Glitch does exactly what our community needs"   
+    p  &nbsp;
+
+    include footer
