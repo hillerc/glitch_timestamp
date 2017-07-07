@@ -1,23 +1,27 @@
-# About Glitch & Marketing Site
+Welcome to the Glitch BETA
+=========================
 
-     _____
-    /     \
-    vvvvvvv  /|__/|
-       I   /O,O   |
-       I /_____   |      /|/|
-       |/^ ^ ^ \  |    /00  |    _//|
-       |^ ^ ^ ^ |W|   |/^^\ |   /oo |  TEACH ME!
-        \m___m__|_|    \m_m_|   \mm_|
-    
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-An alternate pathway for people to be introduced to Glitch in a more traditional marketing/explanatory way.
+**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-From our side, the site needs to be easy to modify and experiment with. As well as allow us to see how well this converts.
+Find out more [about Glitch](https://glitch.com/about).
 
-## Design Goals
 
-- showing > saying
-- Introduce the product and its core features and benefits
-- Be skimmable for people looking for keywords
-- Be unambiguously for visual learners
-- Be performant and quick-loading
+Your Project
+------------
+
+On the front-end,
+- edit `public/client.js`, `public/style.css` and `views/index.html`
+- drag in `assets`, like images or music, to add them to your project
+
+On the back-end,
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
+
+Made by [Fog Creek](https://fogcreek.com/)
+-------------------
+
+\ ゜o゜)ノ
